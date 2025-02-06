@@ -1,0 +1,19 @@
+def search():
+ A = list(map(str,input('Введіть слова в список: ').split()))
+ 
+ print("Ваш список",A)
+
+ i = int(input('Введіть індекс для пошуку слова: '))
+
+ result = []
+
+ for x in range(len(A)):
+
+        if x == i:
+
+            result.append(A[x])
+
+ print("Знайдене слово:",result)
+ return result
+
+search()
