@@ -1,0 +1,9 @@
+def sort():
+ A = list(map(int,input('Введіть список: ').split()))
+ print("Ваш список:",A)
+ 
+ more_30=[i for i in A if i > 30]
+ less_30=[i for i in A if i <=30]
+ 
+ print("Числа більше 30:",more_30,"\nЧисла менше 30:",less_30)
+sort() 
